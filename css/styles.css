@@ -3,59 +3,59 @@
 /* --------------------------- */
 
 .header {
-	width: 100%;
-	padding: 2.4rem 0;
+  width: 100%;
+  padding: 2.4rem 0;
 }
 
 .navbar {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
 }
 
 .navbar__logo {
-	height: 4rem;
+  height: 4rem;
 }
 
 .navbar__menu {
-	display: flex;
-	gap: 3.5rem;
+  display: flex;
+  gap: 3.5rem;
 }
 
 .navbar__link:link,
 .navbar__link:visited {
-	display: inline-block;
-	padding: 1.6rem 1.1rem;
-	font-weight: var(--font-bold);
-	color: var(--color-grey-light-2);
-	transition: color 0.3s;
+  display: inline-block;
+  padding: 1.6rem 1.1rem;
+  font-weight: var(--font-bold);
+  color: var(--color-grey-light-2);
+  transition: color 0.3s;
 }
 
 .navbar__link:hover {
-	color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .navbar__link:active {
-	color: var(--color-primary-dark);
+  color: var(--color-primary-dark);
 }
 
 .navbar__cta:link,
 .navbar__cta:visited {
-	display: inline-block;
-	padding: 0.8rem 2rem;
-	background-color: var(--color-primary);
-	color: var(--color-grey-light-1);
-	border-radius: 4px;
-	transition: background-color 0.3s;
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background-color: var(--color-primary);
+  color: var(--color-grey-light-1);
+  border-radius: 4px;
+  transition: background-color 0.3s;
 }
 
 .navbar__cta:hover {
-	background-color: var(--color-primary-dark);
+  background-color: var(--color-primary-dark);
 }
 
 .navbar__cta:active {
-	background-color: var(--color-primary-light);
+  background-color: var(--color-primary-light);
 }
 
 /* --------------------------- */
@@ -63,43 +63,43 @@
 /* --------------------------- */
 
 .hero-section {
-	padding: 6.4rem 0;
+  padding: 6.4rem 0;
 }
 
 .hero {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
-	gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  gap: 3rem;
 }
 
 .hero__text {
-	max-width: 45ch;
+  max-width: 45ch;
 }
 
 .hero__cta-box {
-	display: flex;
-	gap: 3.2rem;
-	margin: 6.4rem 0;
+  display: flex;
+  gap: 3.2rem;
+  margin: 6.4rem 0;
 }
 
 .hero__plataforms-text {
-	margin-bottom: 4.8rem;
-	font-size: 1.5rem;
-	color: var(--color-grey-light-2);
+  margin-bottom: 4.8rem;
+  font-size: 1.5rem;
+  color: var(--color-grey-light-2);
 }
 
 .hero__plataforms-images {
-	display: grid;
-	align-items: center;
-	gap: 2.2rem;
-	grid-template-columns: 1fr 1fr 2fr 1fr;
+  display: grid;
+  align-items: center;
+  gap: 2.2rem;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
 }
 
 .hero__plataforms-plus {
-	font-size: 1.9rem;
-	font-weight: var(--font-medium);
-	line-height: 1;
-	color: var(--color-grey-light-2);
+  font-size: 1.9rem;
+  font-weight: var(--font-medium);
+  line-height: 1;
+  color: var(--color-grey-light-2);
 }
 
 /* --------------------------- */
@@ -107,39 +107,77 @@
 /* --------------------------- */
 
 .section-services {
-	padding: 9.6rem 0;
-	background-color: var(--color-grey-dark-2);
+  padding: 9.6rem 0;
+  background-color: var(--color-grey-dark-2);
 }
 
 .service-description {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
-	align-items: center;
-	gap: 3.2rem;
-	margin-bottom: 6.4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  align-items: center;
+  gap: 3.2rem;
+  margin-bottom: 6.4rem;
 }
 
-.service-heading {
-	max-width: 22ch;
+.heading-2.heading-services {
+  max-width: 22ch;
 }
 
 .services-cards {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
 }
 
 .service-card {
-	padding: 2.5rem 2.5rem;
-	border: 1px solid #141414;
-	border-radius: 1.2rem;
+  padding: 2.5rem 2.5rem;
+  border: 1px solid #141414;
+  border-radius: 1.2rem;
 }
 
 .service-card__icon {
-	margin-bottom: 3.2rem;
+  margin-bottom: 3.2rem;
 }
 
 .service-card__text {
-	font-size: 1.6rem;
-	color: var(--color-grey-light-2);
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  color: var(--color-grey-light-2);
+}
+
+/* --------------------------- */
+/* BOOST YOUR BUSINESS SECTION */
+/* --------------------------- */
+
+.section-boost-business {
+  padding: 12rem 0;
+}
+
+.heading-2.heading-boost-business {
+  max-width: 30ch;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* --------------------------- */
+/* FINANCIAL PLANNING SECTION  */
+/* --------------------------- */
+
+.col-content {
+  padding-top: 5rem;
+}
+
+.heading-content {
+  max-width: 16ch;
+  margin-bottom: 3rem;
+}
+
+.paragraph--content {
+  max-width: 42ch;
+  margin-bottom: 4rem;
+}
+
+.col-img {
+  display: flex;
+  justify-content: center;
 }
