@@ -63,7 +63,7 @@ img {
 .container {
   max-width: 125rem;
   margin: 0 auto;
-  padding: 0 3.2rem;
+  padding: 0 4.2rem;
 }
 
 /* Headings and text */
@@ -104,7 +104,7 @@ img {
   padding: 1.5rem 2.2rem;
   border: 1px solid transparent;
   border-radius: 10px;
-  transition: color background-color 0.3s;
+  transition: color, background-color 0.3s;
 }
 
 .btn--primary:link,
@@ -152,6 +152,10 @@ img {
 
 .grid-col-2-1 {
   grid-template-columns: 60% 40%;
+}
+
+.grid-col-1-2 {
+  grid-template-columns: 40% 60%;
 }
 
 .mb-small {

@@ -159,9 +159,14 @@
   text-align: center;
 }
 
-/* --------------------------- */
-/* FINANCIAL PLANNING SECTION  */
-/* --------------------------- */
+/* -------------------------------------- */
+/* FINANCIAL, AUTOMATIC & CROSS  SECTIONS */
+/* -------------------------------------- */
+
+.section-automatic-bookkeeping,
+.section-croos-platform {
+  margin: 1.6rem 0;
+}
 
 .col-content {
   padding-top: 5rem;
@@ -177,7 +182,7 @@
   margin-bottom: 4rem;
 }
 
-.col-img {
+/* .col-img {
   display: flex;
   justify-content: center;
-}
+} */
