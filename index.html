@@ -21,6 +21,16 @@
       rel="stylesheet"
     />
 
+    <!-- IONICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
     <title>Fintech Landing Page</title>
   </head>
 
@@ -280,23 +290,88 @@
 
           <div class="stats">
             <div class="stats__item">
-              <div class="stats__number">230+</div>
-              <div class="stats__label">Company</div>
+              <span class="stats__number">230+</span>
+              <span class="stats__label">Company</span>
             </div>
 
             <div class="stats__item">
-              <div class="stats__number">120+</div>
-              <div class="stats__label">Country</div>
+              <span class="stats__number">120+</span>
+              <span class="stats__label">Country</span>
             </div>
 
             <div class="stats__item">
-              <div class="stats__number">10+</div>
-              <div class="stats__label">Year experience</div>
+              <span class="stats__number">10+</span>
+              <span class="stats__label">Year experience</span>
             </div>
           </div>
         </div>
       </section>
       <!-- STATS SECTION ENDS -->
     </main>
+
+    <!-- TESTIMONIAL SECTION STARTS -->
+    <section class="section-testimonial">
+      <div class="container">
+        <div class="grid grid-col-1-2">
+          <div class="content">
+            <h4 class="heading-4 mb-small">Testimonial</h4>
+            <h2 class="heading-2 heading-content">
+              What Our User Say About Us
+            </h2>
+
+            <p class="paragraph paragraph--content">
+              We offer the best financial services for you, in terms that our
+              services are secure and easy to be used
+            </p>
+
+            <div class="btn-arrow-container">
+              <a href="" class="btn btn--arrow">
+                <ion-icon
+                  name="chevron-back-outline"
+                  class="btn--arrow__icon"
+                ></ion-icon>
+              </a>
+              <a href="" class="btn btn--arrow">
+                <ion-icon
+                  name="chevron-forward-outline"
+                  class="btn--arrow__icon"
+                ></ion-icon>
+              </a>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <p class="paragraph testimonial__text">
+              As a business owner, I have found the business analytics platform
+              to be an invaluable tool for making data-driven decisions. The
+              platform's intuitive interface and comprehensive reporting
+              capabilities have helped me to better understand the performance
+              of my business, identify areas for improvement, and make informed
+              decisions that have led to increased profitability and growth.
+            </p>
+
+            <div class="testimonial__footer">
+              <div class="testimonial__user">
+                <img
+                  src="img/testimonial-user.webp"
+                  alt="Testimonial user"
+                  class="testimonial__user-photo"
+                />
+                <span class="testimonial_name">Michael Jordan</span>
+              </div>
+
+              <div class="testimonial__rating">
+                <ion-icon name="star" class="testimonial__star"></ion-icon>
+                <ion-icon name="star" class="testimonial__star"></ion-icon>
+                <ion-icon name="star" class="testimonial__star"></ion-icon>
+                <ion-icon name="star" class="testimonial__star"></ion-icon>
+                <ion-icon name="star" class="testimonial__star"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIAL SECTION ENDS -->
   </body>
 </html>
