@@ -80,6 +80,11 @@ img {
   color: var(--color-grey-dark-1);
 }
 
+.heading-2--white {
+  font-size: 5.4rem;
+  color: var(--color-grey-light-1);
+}
+
 .heading-4 {
   font-size: 1.6rem;
   letter-spacing: 1px;
@@ -99,12 +104,14 @@ img {
 
 /* Buttons */
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
   padding: 1.5rem 2.2rem;
   border: 1px solid transparent;
   border-radius: 10px;
+  cursor: pointer;
   transition: color, background-color 0.3s;
 }
 
@@ -142,8 +149,7 @@ img {
   border-color: var(--color-primary-dark);
 }
 
-.btn--arrow:link,
-.btn--arrow:visited {
+.btn--arrow {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,6 +171,18 @@ img {
 .btn--arrow__icon {
   font-size: 2rem;
   color: var(--color-grey-light-1);
+}
+
+.btn--white:link,
+.btn--white:visited {
+  font-weight: 600;
+  color: var(--color-grey-dark-2);
+  background-color: var(--color-grey-light-1);
+}
+
+.btn--white:hover,
+.btn--white:active {
+  background-color: #d6d6d6;
 }
 
 /* --------------------------- */

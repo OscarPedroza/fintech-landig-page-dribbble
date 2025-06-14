@@ -285,3 +285,54 @@
   font-size: 2rem;
   color: #f9a418;
 }
+
+/* --------------------------- */
+/* DOWNLOAD APP SECTION */
+/* --------------------------- */
+
+.section-download {
+  padding: 6.4rem;
+}
+
+.download-box {
+  position: relative;
+  padding: 3.2rem 8rem;
+  background-color: var(--color-primary);
+}
+
+.download-box.grid {
+  place-items: center;
+  gap: 5rem;
+}
+
+.download-box__img-box {
+  position: relative;
+  z-index: 1;
+}
+
+.download-box__rectangular-shape,
+.download-box::before,
+.download-box::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 20rem;
+  height: 13rem;
+  background-color: var(--color-grey-light-1);
+  opacity: 0.2;
+}
+
+.download-box__rectangular-shape {
+  top: 0;
+  left: 0;
+}
+
+.download-box::before {
+  bottom: 0;
+  right: 43%;
+}
+
+.download-box::after {
+  top: 7%;
+  left: 43%;
+}
