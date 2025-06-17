@@ -1,0 +1,66 @@
+/* --------------------------- */
+/* HORIZONTAL TABLETS */
+/* --------------------------- */
+
+@media only screen and (max-width: 940px) {
+  /*------- GENERAL ------- */
+
+  html {
+    font-size: 56.6%;
+  }
+
+  /*------- FOOTER ------- */
+
+  .footer__grid {
+    row-gap: 6.2rem;
+    column-gap: 2rem;
+  }
+
+  .footer__logo {
+    margin-bottom: 3.2rem;
+  }
+}
+
+/* --------------------------- */
+/* TABLETS */
+/* --------------------------- */
+
+@media only screen and (max-width: 768px) {
+  /*------- REUSABLE COMPONENTS ------- */
+
+  .heading-1 {
+    max-width: 20ch;
+  }
+
+  .hero__text {
+    max-width: 65ch;
+  }
+
+  /*------- HERO ------- */
+
+  .hero__img {
+    display: block;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  /*------- FOOTER ------- */
+
+  .footer__grid {
+    grid-template-columns: repeat(3, 3fr);
+    place-items: center;
+    align-items: baseline;
+  }
+
+  .footer__newsletter {
+    text-align: center;
+  }
+
+  .footer__text {
+    margin: 0 auto 3.2rem auto;
+  }
+
+  .footer__newsletter {
+    grid-column: 1 / -1;
+  }
+}
