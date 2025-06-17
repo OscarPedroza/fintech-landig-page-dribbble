@@ -28,8 +28,17 @@
 @media only screen and (max-width: 768px) {
   /*------- REUSABLE COMPONENTS ------- */
 
+  .container {
+    padding: 0 7.2rem;
+  }
+
   .heading-1 {
     max-width: 20ch;
+    font-size: 5rem;
+  }
+
+  .heading-2 {
+    font-size: 3.5rem;
   }
 
   .hero__text {
@@ -42,6 +51,7 @@
   .grid-col-2-1,
   .grid-col-1-2 {
     grid-template-columns: 1fr;
+    row-gap: 4.8rem;
   }
 
   .grid-col-2-1 .col-img {
@@ -98,6 +108,12 @@
     margin: 0 auto;
   }
 
+  /*------- SERVICES ------- */
+
+  .heading-2.heading-services {
+    max-width: 100%;
+  }
+
   /*------- DESCRIPTION SECTIONS ------- */
 
   .heading-content,
@@ -123,5 +139,58 @@
 
   .footer__newsletter {
     grid-column: 1 / -1;
+  }
+}
+
+/* --------------------------- */
+/* PHONES */
+/* --------------------------- */
+
+@media only screen and (max-width: 768px) {
+  /* ------- REUSABLE COMPONENTS ------- */
+
+  .container {
+    padding: 0 3rem;
+  }
+
+  .heading-1 {
+    max-width: 100%;
+    font-size: 4.6rem;
+  }
+
+  /* ------- HEADER ------- */
+  .hero-section {
+    padding: 4.8rem 0;
+  }
+
+  .section-boost-business {
+    padding: 7rem 0;
+  }
+
+  .hero__img {
+    max-width: 100%;
+  }
+
+  /* ------- STATS ------- */
+
+  .stats {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+
+  .stats__item:not(:last-child) {
+    border: none;
+  }
+
+  /* ------- DOWNLOAD APP ------- */
+
+  .download-box {
+    padding: 4rem 2.6rem;
+    overflow-x: hidden;
+  }
+
+  .download-box::after {
+    top: 10rem;
+    left: 70%;
   }
 }
