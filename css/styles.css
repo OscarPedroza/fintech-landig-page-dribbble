@@ -375,6 +375,8 @@
 .footer__input {
   width: 30rem;
   padding: 1.9rem 1rem;
+  font-size: 1.8rem;
+  font-family: inherit;
   outline-color: transparent;
   transition: outline-color 0.3s;
 }

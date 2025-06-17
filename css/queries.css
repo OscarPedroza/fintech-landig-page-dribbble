@@ -36,12 +36,33 @@
     max-width: 65ch;
   }
 
+  /*------- UTILITES CLASSES ------- */
+
+  .grid-col-1-1,
+  .grid-col-2-1,
+  .grid-col-1-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-col-2-1 .col-img {
+    order: 1;
+  }
+
+  /*------- HEADER ------- */
+
   /*------- HERO ------- */
 
   .hero__img {
     display: block;
     max-width: 60%;
     margin: 0 auto;
+  }
+
+  /*------- DESCRIPTION SECTIONS ------- */
+
+  .heading-content,
+  .paragraph--content {
+    max-width: 100%;
   }
 
   /*------- FOOTER ------- */
