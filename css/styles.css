@@ -18,9 +18,16 @@
   height: 4rem;
 }
 
+.navbar__box {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
 .navbar__menu {
   display: flex;
   gap: 3.5rem;
+  margin: 0 auto;
 }
 
 .navbar__link:link,
@@ -56,6 +63,25 @@
 
 .navbar__cta:active {
   background-color: var(--color-primary-light);
+}
+
+/* RESPONSIVE TOGGLE BUTTON */
+
+.navbar__toggle {
+  display: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar__btn-toggle-icon {
+  font-size: 4.4rem;
+  line-height: 0;
+  color: var(--color-grey-dark-2);
+}
+
+.navbar__btn-toggle-icon.close {
+  display: none;
 }
 
 /* --------------------------- */

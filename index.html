@@ -22,14 +22,19 @@
       rel="stylesheet"
     />
 
+    <!-- SCRIPTS -->
+    <script src="js/script.js" defer></script>
+
     <!-- IONICONS -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      defer
     ></script>
     <script
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      defer
     ></script>
 
     <title>Fintech Landing Page</title>
@@ -48,22 +53,37 @@
             />
           </a>
 
-          <ul class="navbar__menu">
-            <li class="navbar__menu-item">
-              <a href="#" class="navbar__link">Home</a>
-            </li>
-            <li class="navbar__menu-item">
-              <a href="#" class="navbar__link">Services</a>
-            </li>
-            <li class="navbar__menu-item">
-              <a href="#" class="navbar__link">Feautures</a>
-            </li>
-            <li class="navbar__menu-item">
-              <a href="#" class="navbar__link">Testimonials</a>
-            </li>
-          </ul>
+          <div class="navbar__box" id="menu">
+            <ul class="navbar__menu">
+              <li class="navbar__menu-item">
+                <a href="#" class="navbar__link">Home</a>
+              </li>
+              <li class="navbar__menu-item">
+                <a href="#" class="navbar__link">Services</a>
+              </li>
+              <li class="navbar__menu-item">
+                <a href="#" class="navbar__link">Feautures</a>
+              </li>
+              <li class="navbar__menu-item">
+                <a href="#" class="navbar__link">Testimonials</a>
+              </li>
+            </ul>
 
-          <a href="#" class="navbar__cta">Get App</a>
+            <a href="#" class="navbar__cta">Get App</a>
+          </div>
+
+          <button class="navbar__toggle" id="btn-toggle">
+            <ion-icon
+              name="menu-outline"
+              class="navbar__btn-toggle-icon open"
+            ></ion-icon>
+
+            <ion-icon
+              name="close-outline"
+              class="navbar__btn-toggle-icon close"
+            >
+            </ion-icon>
+          </button>
         </nav>
       </div>
     </header>

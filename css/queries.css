@@ -50,6 +50,46 @@
 
   /*------- HEADER ------- */
 
+  .navbar {
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+  .navbar__box {
+    flex-basis: 100%;
+    order: 1;
+    flex-direction: column;
+    max-height: 0;
+    transition: max-height 0.3s;
+  }
+
+  .navbar__box.active {
+    max-height: 60rem;
+  }
+
+  .navbar__menu {
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+  }
+
+  .navbar__cta {
+    margin: 1.6rem 0;
+  }
+
+  .navbar__toggle {
+    display: block;
+  }
+
+  .navbar__btn-toggle-icon.close,
+  .navbar__toggle.active .navbar__btn-toggle-icon.open {
+    display: none;
+  }
+
+  .navbar__toggle.active .navbar__btn-toggle-icon.close {
+    display: block;
+  }
+
   /*------- HERO ------- */
 
   .hero__img {
