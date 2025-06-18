@@ -93,8 +93,6 @@
 }
 
 .hero {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
   gap: 3rem;
 }
 
@@ -138,8 +136,6 @@
 }
 
 .service-description {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
   align-items: center;
   gap: 3.2rem;
   margin-bottom: 6.4rem;
@@ -399,7 +395,8 @@
 }
 
 .footer__input {
-  width: 30rem;
+  max-width: 30rem;
+  width: 100%;
   padding: 1.9rem 1rem;
   font-size: 1.8rem;
   font-family: inherit;
