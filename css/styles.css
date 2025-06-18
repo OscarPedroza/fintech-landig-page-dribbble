@@ -3,8 +3,16 @@
 /* --------------------------- */
 
 .header {
+  position: fixed;
+  z-index: 2;
   width: 100%;
-  padding: 2.4rem 0;
+  padding: 2rem 0;
+  transition: box-shadow 0.3s;
+}
+
+.header.fixed {
+  background-color: var(--color-grey-light-1);
+  box-shadow: -1px 2px 20px 0px rgba(64, 111, 141, 0.15);
 }
 
 .navbar {
@@ -15,6 +23,7 @@
 }
 
 .navbar__logo {
+  display: block;
   height: 4rem;
 }
 
@@ -89,7 +98,7 @@
 /* --------------------------- */
 
 .hero-section {
-  padding: 6.4rem 0;
+  padding: 17rem 0 6.4rem 0;
 }
 
 .hero {
